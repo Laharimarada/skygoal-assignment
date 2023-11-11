@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;700&family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+/********* NAVBAR-CSS START **********/
+.nav-bar {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 1300px;
+  margin: auto;
+}
+.hamburger {
+  display: none;
+}
+.emptybox {
+  display: none;
+}
+.ham-line {
+  width: 30px;
+  background-color: black;
+  height: 4px;
+  border-radius: 3px;
+}
+.nav-first-group {
+  display: flex;
+  gap: 30px;
+  /* flex-wrap: wrap; */
+}
+
+.nav-sec-group {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.btn-orange {
+  background-color: #f27a44;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+/******** NAVBAR-CSS CLOSE **********/
+/******** HEADER CSS START **********/
+.background-col {
+  background-color: rgba(248, 226, 126, 0.1);
+}
+.header-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  padding: 0px 10px;
+  margin: auto;
+}
+.inter-400,
+.inter-600,
+.inter-500 {
+  font-family: "Inter", sans-serif;
+}
+.inter-600 {
+  font-weight: 600;
+}
+.inter-500 {
+  font-weight: 500;
+}
+.inter-400 {
+  font-weight: 400;
+}
+.poppins-700,
+.poppins-500 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+}
+
+.poppins-700 {
+  font-weight: 700;
+}
+
+.poppins-500 {
+  font-weight: 500;
+}
+.header-sec-first-grp {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 550px;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+.shp1 {
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+.shp2 {
+  position: absolute;
+  right: 0;
+}
+.shp3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.shp4 {
+  position: absolute;
+  top: 50px;
+}
+.shp5 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/******** HEADER-CSS CLOSE **********/
+/******** SECTION TWO CSS START *******/
+.section-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: 100px auto;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 75%;
+}
+.section-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.roboto-500,
+.roboto-400,
+.roboto-900,
+.roboto-700 {
+  font-family: "Roboto", sans-serif;
+}
+.roboto-400 {
+  font-weight: 400;
+  font-size: 12px;
+}
+.roboto-500 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.roboto-700 {
+  font-weight: 700;
+}
+.roboto-900 {
+  font-weight: 900;
+}
+.section-two-sec-grp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.discounts-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 10px;
+}
+/******** SECTION TWO CSS CLOSE  *******/
+/*******DESTINATIONS SECTION START *****/
+.destinations-sec {
+  display: flex;
+  gap: 20px;
+  /* max-width: 1300px; */
+  /* overflow-x: scroll; */
+}
+.destinations-container {
+  max-width: 1430px;
+  padding: 0 10px;
+  margin-left: auto;
+}
+.dest-card-data {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*******DESTINATIONS SECTION CLOSE *****/
+/* BOOKING SECTION START */
+
+.booking-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+}
+.booking-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+.form-flex-box {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.form-flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input-fields {
+  border: none;
+  background-color: #f3f3f3;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-family: "Roboto";
+}
+.book-btn {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.form-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* BOOKING SECTION CLOSE */
+/**** TESTMONIALS CSS START ****/
+.testmonialbox {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  width: 100%;
+}
+.test {
+  margin: 100px 0;
+}
+.ppl {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 20px;
+}
+/**** TESTMONIALS CSS CLOSE ****/
+/**** FOOTER CSS START ****/
+.footer-sec {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.links-first-grp {
+  display: flex;
+  gap: 20px;
+}
+.links-sec-grp {
+  display: flex;
+  gap: 15px;
+}
+/**** FOOTER CSS CLOSE ****/
+@media screen and (max-width: 1024px) {
+  .nav-bar {
+    max-width: 1010px;
+    padding: 20px 10px;
+  }
+  .destinations-sec {
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 920px) {
+  .header-sec {
+    max-width: 910px;
+    margin: auto;
+    flex-direction: column;
+  }
+  .booking-sec {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+  .emptybox {
+    display: block;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 690px;
+    padding: 20px 10px;
+  }
+  .nav-first-group,
+  .nav-sec-group {
+    display: none;
+  }
+  .poppins-700,
+  .poppins-500 {
+    font-size: 50px;
+  }
+  .header-sec {
+    flex-direction: column;
+    max-width: 690px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  .discounts-sec {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 690px;
+    margin: auto;
+  }
+  .destinations-sec {
+    max-width: 690px;
+    margin: auto;
+    overflow-x: scroll;
+  }
+  .testmonialbox {
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+  }
+  .booking-sec {
+    max-width: 690px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  .booking-card {
+    margin: 30px 0;
+  }
+  .section-two {
+    flex-direction: column-reverse;
+  }
+  .section-cards {
+    margin: 20px;
+  }
+  .card {
+    width: auto;
+  }
+  .booking-sec {
+    flex-direction: column-reverse;
+  }
+  .testmonialbox {
+    flex-direction: column;
+  }
+  .links-first-grp,
+  .links-sec-grp {
+    flex-direction: column;
+  }
+}
