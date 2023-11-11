@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Bookingheroein from "../assets/Booking-sec-heroein.svg";
+import Bookingheroein from "../assets/booking-sec-heroein.svg";
 const Booking = () => {
   const [star, setStar] = useState(0);
   const [room, setRoom] = useState(0);
