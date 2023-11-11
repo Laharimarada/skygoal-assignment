@@ -8,6 +8,8 @@
 /********* NAVBAR-CSS START **********/
 .nav-bar {
   /* position: fixed; */
+  /* width: 100%; */
+  /* background-color: white; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,6 +19,13 @@
   font-size: 16px;
   max-width: 1300px;
   margin: auto;
+}
+.nav-fix {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  z-index: 100;
 }
 .mobile-nav {
   display: none;
@@ -58,6 +67,7 @@
 /******** HEADER CSS START **********/
 .background-col {
   background-color: rgba(248, 226, 126, 0.1);
+  margin-top: 70px;
 }
 .header-sec {
   display: flex;
