@@ -281,6 +281,7 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
+  padding: 0 10px;
 }
 .footer-links {
   display: flex;
@@ -326,6 +327,10 @@
   .flex {
     display: flex;
   }
+  .form-flex-box {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
   .mobile-nav {
     /* display: flex; */
     flex-direction: column;
@@ -355,10 +360,10 @@
   }
   .poppins-700,
   .poppins-500 {
-    font-size: 50px;
+    font-size: 55px;
   }
   .header-sec {
-    flex-direction: column;
+    flex-direction: column-reverse;
     max-width: 690px;
     margin: auto;
     padding: 0 10px;
@@ -368,6 +373,7 @@
     flex-direction: column-reverse;
     max-width: 690px;
     margin: auto;
+    padding: 0 10px;
   }
   .destinations-sec {
     max-width: 690px;

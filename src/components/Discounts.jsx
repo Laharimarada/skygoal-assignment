@@ -28,13 +28,13 @@ const Discounts = () => {
             <li>Sed suspendisse id in ultrices</li>
           </ul>
         </div>
-        <button className="btn-orange inter-400">Explore more</button>
+        <button className="btn-orange inter-600">Explore more</button>
       </div>
       <div>
         <img
           src={Heroein}
           alt="discounts-heroein"
-          style={{ display: "block", width: "400px" }}
+          style={{ display: "block", width: "300px" }}
         />
       </div>
     </div>

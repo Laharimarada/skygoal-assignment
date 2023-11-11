@@ -29,12 +29,12 @@ const Header = () => {
             </p>
           </div>
           <div className="emptybox"></div>
-          <button className="inter-400 btn-orange">SIGN UP</button>
+          <button className="inter-600 btn-orange">SIGN UP</button>
         </div>
         <div style={{ position: "relative" }}>
           <img src={secdisc} alt="secdisc" className="shp4" />
           <img src={circle} alt="circle" className="shp5" />
-          <img src={Headerboy} alt="boy" width="400px" />
+          <img src={Headerboy} alt="boy" width="300px" />
         </div>
       </div>
     </div>

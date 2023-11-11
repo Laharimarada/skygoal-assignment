@@ -22,7 +22,7 @@ const Booking = () => {
         <img
           src={Bookingheroein}
           alt="Booking-sec-heroein"
-          style={{ display: "block", width: "400px" }}
+          style={{ display: "block", width: "300px" }}
         />
       </div>
       <div className="booking-card">
