@@ -27,12 +27,15 @@ const Booking = () => {
         />
       </div>
       <div className="booking-card">
-        <p className="roboto-900 " style={{ fontSize: "32px" }}>
-          Book now
-        </p>
-        <p className="roboto-400" style={{ fontSize: "12px" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        </p>
+        <div>
+          <p className="roboto-900 " style={{ fontSize: "32px" }}>
+            Book Now
+          </p>
+          <p className="roboto-500" style={{ fontSize: "12px" }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+
         <div className="form-gap">
           <div className="form-flex-col">
             <label className="roboto-500" style={{ fontSize: "12px" }}>
