@@ -6,14 +6,14 @@ const Discounts = () => {
     <div className="discounts-sec">
       <div className="section-two-sec-grp">
         <div>
-          <div style={{ lineHeight: "35px" }}>
-            <p className="inter-500" style={{ fontSize: "15px" }}>
+          <div style={{ lineHeight: "45px" }}>
+            <p className="inter-500" style={{ fontSize: "25px" }}>
               Get 20% off for student
             </p>
-            <p className="inter-600" style={{ fontSize: "35px" }}>
+            <p className="inter-600" style={{ fontSize: "45px" }}>
               Student discounts available.
             </p>
-            <p className="inter-400" style={{ fontSize: "25px" }}>
+            <p className="inter-400" style={{ fontSize: "35px" }}>
               Get ready for some fun in the sun!
             </p>
           </div>
@@ -35,7 +35,7 @@ const Discounts = () => {
           src={Heroein}
           alt="discounts-heroein"
           className="discounts-heroein"
-          style={{ display: "block"}}
+          style={{ display: "block" }}
         />
       </div>
     </div>

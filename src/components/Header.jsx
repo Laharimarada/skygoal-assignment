@@ -28,7 +28,7 @@ const Header = () => {
               bibendum integer rutrum nisi. A nec nisl vitae
             </p>
           </div>
-          <div className="emptybox"></div>
+
           <button className="inter-600 btn-orange">SIGN UP</button>
         </div>
         <div style={{ position: "relative" }}>

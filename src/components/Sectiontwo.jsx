@@ -43,14 +43,14 @@ const Sectiontwo = () => {
       </div>
       <div className="section-two-sec-grp">
         <div>
-          <div style={{ lineHeight: "35px" }}>
-            <p className="inter-600" style={{ fontSize: "35px" }}>
+          <div style={{ lineHeight: "45px" }}>
+            <p className="inter-600" style={{ fontSize: "45px" }}>
               Tropical Adventure
             </p>
-            <p className="inter-400" style={{ fontSize: "25px" }}>
+            <p className="inter-400" style={{ fontSize: "35px" }}>
               for Students.
             </p>
-            <p className="inter-500" style={{ fontSize: "15px" }}>
+            <p className="inter-500" style={{ fontSize: "25px" }}>
               Student Tropical Vacation: Relax and Recharge
             </p>
           </div>

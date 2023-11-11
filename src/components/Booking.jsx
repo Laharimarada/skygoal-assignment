@@ -27,39 +27,51 @@ const Booking = () => {
         />
       </div>
       <div className="booking-card">
-        <div>
-          <p className="roboto-900 " style={{ fontSize: "32px" }}>
-            Book Now
+        <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+          <p className="roboto-900 " style={{ fontSize: "34px" }}>
+            BOOK NOW
           </p>
-          <p className="roboto-500" style={{ fontSize: "12px" }}>
+          <p className="roboto-500" style={{ fontSize: "14px" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
         </div>
 
         <div className="form-gap">
           <div className="form-flex-col">
-            <label className="roboto-500" style={{ fontSize: "12px" }}>
+            <label className="roboto-500" style={{ fontSize: "14px" }}>
               CITY
             </label>
-            <input type="text" placeholder="City" className="input-fields" />
+            <input
+              type="text"
+              placeholder="ENTER CITY"
+              className="input-fields"
+            />
           </div>
           <div className="form-flex-box">
             <div className="form-flex-col">
-              <label className="roboto-500" style={{ fontSize: "12px" }}>
+              <label className="roboto-500" style={{ fontSize: "14px" }}>
                 ARRIVAL
               </label>
-              <input type="text" className="input-fields" />
+              <input
+                type="text"
+                className="input-fields"
+                placeholder="ENTER TIME"
+              />
             </div>
             <div className="form-flex-col">
-              <label className="roboto-500" style={{ fontSize: "12px" }}>
+              <label className="roboto-500" style={{ fontSize: "14px" }}>
                 DEPARTURE
               </label>
-              <input type="text" className="input-fields" />
+              <input
+                type="text"
+                className="input-fields"
+                placeholder="ENTER TIME"
+              />
             </div>
           </div>
           <div className="form-flex-box">
             <div className="form-flex-col">
-              <label className="roboto-500" style={{ fontSize: "12px" }}>
+              <label className="roboto-500" style={{ fontSize: "14px" }}>
                 STAR
               </label>
               {/* <input type="text" className="input-fields"/> */}
@@ -83,7 +95,7 @@ const Booking = () => {
               </div>
             </div>
             <div className="form-flex-col">
-              <label className="roboto-500" style={{ fontSize: "12px" }}>
+              <label className="roboto-500" style={{ fontSize: "14px" }}>
                 ROOM
               </label>
               <div>
