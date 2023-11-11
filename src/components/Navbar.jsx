@@ -26,6 +26,8 @@ const Navbar = () => {
           <div>About</div>
           <div>Schedules</div>
           <div>Pricing</div>
+          <div style={{ color: "#7D7D7D" }}>Offers</div>
+          <button className="btn-orange">Courses</button>
         </div>
       </nav>
     </div>
