@@ -18,6 +18,9 @@
   max-width: 1300px;
   margin: auto;
 }
+.mobile-nav {
+  display: none;
+}
 .hamburger {
   display: none;
 }
@@ -28,7 +31,7 @@
   width: 30px;
   background-color: black;
   height: 4px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .nav-first-group {
   display: flex;
@@ -47,6 +50,8 @@
   color: white;
   border: none;
   padding: 10px 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
   border-radius: 30px;
 }
 /******** NAVBAR-CSS CLOSE **********/
@@ -185,7 +190,7 @@
   display: flex;
   gap: 20px;
   /* max-width: 1300px; */
-  /* overflow-x: scroll; */
+  overflow-x: scroll;
 }
 .destinations-container {
   max-width: 1430px;
@@ -291,6 +296,7 @@
   gap: 15px;
 }
 /**** FOOTER CSS CLOSE ****/
+
 @media screen and (max-width: 1024px) {
   .nav-bar {
     max-width: 1010px;
@@ -313,6 +319,24 @@
 @media screen and (max-width: 700px) {
   .emptybox {
     display: block;
+  }
+  .none {
+    display: none;
+  }
+  .flex {
+    display: flex;
+  }
+  .mobile-nav {
+    /* display: flex; */
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    top: 50px;
+    z-index: 10;
+    gap: 20px;
+    padding: 20px 0;
+    align-items: center;
   }
   .hamburger {
     display: flex;

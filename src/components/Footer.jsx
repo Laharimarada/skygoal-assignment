@@ -19,13 +19,13 @@ const Footer = () => {
         </p>
       </div>
       <div className="footer-links">
-        <div className="links-first-grp">
+        <div className="links-first-grp inter-400">
           <p>Privacy Policy</p>
           <p>Terms of Use</p>
           <p>Sales and Refunds</p>
           <p>Legal</p>
         </div>
-        <div className="links-sec-grp">
+        <div className="links-sec-grp inter-600">
           <p>About</p>
           <p>Schedules</p>
           <p>Pricings</p>
