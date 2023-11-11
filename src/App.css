@@ -387,7 +387,7 @@
     padding: 0 10px;
   }
   .header-sec-first-grp {
-    align-items: center;
+    align-items: flex-start;
     /* text-align: center; */
   }
   .discounts-sec {
