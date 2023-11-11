@@ -34,7 +34,8 @@ const Discounts = () => {
         <img
           src={Heroein}
           alt="discounts-heroein"
-          style={{ display: "block", width: "300px" }}
+          className="discounts-heroein"
+          style={{ display: "block"}}
         />
       </div>
     </div>

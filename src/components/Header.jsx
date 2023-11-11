@@ -11,7 +11,7 @@ const Header = () => {
     <div className="background-col">
       <div className="header-sec">
         <div className="header-sec-first-grp">
-          {/* <img src={Shape1} alt="eclipse1" className="shp1" /> */}
+          <img src={Shape1} alt="eclipse1" className="shp1" />
           <img src={Shape2} alt="eclipse2" className="shp2" />
           <img src={oneforthdisc} alt="disc" className="shp3" />
           <div style={{ lineHeight: "70px" }}>
@@ -34,7 +34,7 @@ const Header = () => {
         <div style={{ position: "relative" }}>
           <img src={secdisc} alt="secdisc" className="shp4" />
           <img src={circle} alt="circle" className="shp5" />
-          <img src={Headerboy} alt="boy" width="300px" />
+          <img src={Headerboy} alt="boy" width="300px" className="header-boy" />
         </div>
       </div>
     </div>

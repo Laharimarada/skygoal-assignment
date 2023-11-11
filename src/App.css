@@ -2,14 +2,10 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 2px solid red; */
 }
 
 /********* NAVBAR-CSS START **********/
 .nav-bar {
-  /* position: fixed; */
-  /* width: 100%; */
-  /* background-color: white; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,14 +41,12 @@
 .nav-first-group {
   display: flex;
   gap: 30px;
-  /* flex-wrap: wrap; */
 }
 
 .nav-sec-group {
   display: flex;
   gap: 30px;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 .btn-orange {
   background-color: #f27a44;
@@ -67,7 +61,13 @@
 /******** HEADER CSS START **********/
 .background-col {
   background-color: rgba(248, 226, 126, 0.1);
-  margin-top: 70px;
+  margin-top: 20px;
+  padding: 30px 0;
+}
+.header-boy,
+.discounts-heroein,
+.booking-heroein {
+  width: 500px;
 }
 .header-sec {
   display: flex;
@@ -191,7 +191,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1300px;
-  margin: auto;
+  margin: 20px auto;
   padding: 0 10px;
 }
 /******** SECTION TWO CSS CLOSE  *******/
@@ -219,10 +219,10 @@
 
 .booking-sec {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   max-width: 1300px;
-  margin: auto;
+  margin: 60px auto;
 }
 .booking-card {
   display: flex;
@@ -331,6 +331,11 @@
   .emptybox {
     display: block;
   }
+  .header-boy,
+  .discounts-heroein,
+  .booking-heroein {
+    width: 300px;
+  }
   .none {
     display: none;
   }
@@ -342,7 +347,6 @@
     flex-wrap: wrap;
   }
   .mobile-nav {
-    /* display: flex; */
     flex-direction: column;
     position: absolute;
     width: 100%;

@@ -21,8 +21,9 @@ const Booking = () => {
       <div>
         <img
           src={Bookingheroein}
+          className="booking-heroein"
           alt="Booking-sec-heroein"
-          style={{ display: "block", width: "300px" }}
+          style={{ display: "block" }}
         />
       </div>
       <div className="booking-card">
